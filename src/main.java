@@ -9,7 +9,7 @@ public class main {
     static final String USER = "root";
     static final String PASS = "Banamex21";
     static final String QUERY = "SELECT * from Persona where idpersona = ?";
-    static final String QUERY2 = "SELECT * from Persona where idpersona = ?";
+   // static final String QUERY2 = "SELECT * from Persona where idpersona = ?";
     public static void main(String[] args) throws Exception {
 
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
