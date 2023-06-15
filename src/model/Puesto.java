@@ -1,4 +1,4 @@
-package Puesto;
+package model;
 
 public class Puesto {
 
