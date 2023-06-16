@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6b3932f9-84e5-4cb8-ba6c-d66b30f32b94" name="Changes" comment="segundo commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrama_empresa_gonzalom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OrdenVentaCabecera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OrdenVentaDetalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com/example/webapp/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Departamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DepartamentoDesarrollo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DepartamentoVentas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PersonaDesarrollo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PersonaVentas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Puesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Roles.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,35 +71,89 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QAt0PG1UPBlhaCesMAK4v74rRv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus TUF/IdeaProjects/Empresa/src/webapp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Asus TUF/IdeaProjects/Empresa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus TUF\IdeaProjects\Empresa\src\lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus TUF\IdeaProjects\Empresa" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="Empresa" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Empresa/webapp/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 10.1.9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.9" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="webapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/webapp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5ebe0e56-9ee6-40fe-931d-a3397a594c74" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webapp:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat">
@@ -89,10 +180,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.main" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Smart Tomcat.Tomcat" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -105,6 +199,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684807993506</updated>
+      <workItem from="1686857658701" duration="9087000" />
     </task>
     <task id="LOCAL-00001" summary="segundo commit">
       <created>1686793904403</created>
@@ -113,8 +208,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686793904403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="segundo commit">
+      <created>1686857711983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686857711983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -128,6 +233,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="segundo commit" />
     <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
   </component>
